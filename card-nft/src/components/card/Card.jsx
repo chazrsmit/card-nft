@@ -3,6 +3,7 @@ import img from '../../../../images/image-equilibrium.jpg'
 import img2 from '../../../../images/icon-ethereum.svg'
 import img3 from '../../../../images/icon-clock.svg'
 import img4 from '../../../../images/image-avatar.png'
+import img5 from '../../../../images/icon-view.svg'
 
 export default function Card() {
     return(
@@ -11,11 +12,13 @@ export default function Card() {
             <div className="card">
                 <div className="card-top">
                     <img src={img} alt="" srcset="" />
-                    <div className="filter"></div>
+                    <div className="filter">
+                        <img src={img5} alt="" srcset="" />
+                    </div>
                 </div>
                 <div className="card-body">
                     <div className="body-part1">
-                        <h3>Equilibirum</h3>
+                        <h3>Equilibrium</h3>
                         <p className="p-light">Our equilibirum collection promotes balance and calm.</p>
                         <div className="bottom-row">
                             <div className="bottom-left">
