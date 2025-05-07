@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
 body {
     background-color: #0d1a2d;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 98vh;
+    font-family: "Outfit";
 }
 
 .card {
-    height: 450px;
+    height: auto;
     width: 275px;
     background-color: #15273f;
     border-radius: 14px;
@@ -21,7 +25,7 @@ body {
 
 .card-wrap {
     background-color: #0c192c;
-    height: 500px;
+    height: 520px;
     width: 350px;
     display: flex;
     justify-content: center;
@@ -32,11 +36,50 @@ body {
 .card-top {
     width: 240px;
     height: 240px;
-    padding: 16px;
+    padding-top: 18px;
 }
 
 .card-top img {
     object-fit: cover;
     width: 100%;
     border-radius: 6px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+/* Bottom */
+
+.img1, .img2 {
+    padding-top: 17px;
+}
+
+.bottom-row, .bottom-left, .bottom-right {
+    display: flex;
+}
+
+.bottom-row {
+    justify-content: space-between;
+}
+
+.bottom-left, .bottom-right {
+    gap: 8px;
+}
+
+.body-part1 {
+    flex: 2;
+}
+
+.body-part2 {
+    display:flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    flex: 1;
+}
+
+h3 {
+    color: white;
 }
