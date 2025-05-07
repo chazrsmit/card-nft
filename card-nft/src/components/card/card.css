@@ -49,7 +49,7 @@ body {
 .filter {
     width: 240px;
     height: 240px;
-    background-color: aqua;
+    background-color: hsla(180, 100%, 50%, 0.434);
     opacity:0;
     position: absolute;
     top: 0;
@@ -67,8 +67,8 @@ body {
     height: 50px;
 }
 
-.card-top:hover .filter     {
-    opacity: 0.5;
+.card-top:hover .filter {
+    opacity: 1;
 }
 
 .card-body {
