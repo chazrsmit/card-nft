@@ -11,6 +11,7 @@ export default function Card() {
             <div className="card">
                 <div className="card-top">
                     <img src={img} alt="" srcset="" />
+                    <div className="filter"></div>
                 </div>
                 <div className="card-body">
                     <div className="body-part1">
