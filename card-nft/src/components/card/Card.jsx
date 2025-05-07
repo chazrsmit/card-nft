@@ -14,7 +14,7 @@ export default function Card() {
                 <div className="card-body">
                     <div className="body-part1">
                         <h3>Equilibirum</h3>
-                        <p>Our equilibirum collection promotes balance and calm.</p>
+                        <p className="p-light">Our equilibirum collection promotes balance and calm.</p>
                         <div className="bottom-row">
                             <div className="bottom-left">
                                 <div className="img1">
@@ -26,7 +26,7 @@ export default function Card() {
                                 <div className="img2">
                                     <img src={img3} alt="" />
                                 </div>
-                                <p className="p-days">3 days left</p>
+                                <p className="p-light">3 days left</p>
                             </div>
                         </div>
                     </div>

@@ -55,7 +55,7 @@ body {
 /* Bottom */
 
 .img1, .img2 {
-    padding-top: 17px;
+    padding-top: 12px;
 }
 
 .bottom-row, .bottom-left, .bottom-right {
@@ -70,8 +70,21 @@ body {
     gap: 8px;
 }
 
+.bottom-row p {
+    font-size: 13px;
+}
+
 .body-part1 {
     flex: 2;
+}
+
+.p-light {
+    color:  hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.p-turquoise {
+    color: hsl(178, 100%, 50%);
 }
 
 .body-part2 {
