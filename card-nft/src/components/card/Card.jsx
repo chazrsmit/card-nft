@@ -2,6 +2,7 @@ import './card.css'
 import img from '../../../../images/image-equilibrium.jpg'
 import img2 from '../../../../images/icon-ethereum.svg'
 import img3 from '../../../../images/icon-clock.svg'
+import img4 from '../../../../images/image-avatar.png'
 
 export default function Card() {
     return(
@@ -32,10 +33,10 @@ export default function Card() {
                     </div>
                     <div className="body-part2">
                         <div className="user-icon">
-                            <img src="" alt="" />
+                            <img src={img4} alt="" />
                         </div>
                         <div>
-                            <p>Creation of Jules Wyvern</p>
+                            <p className="copyright">Creation of <span>Jules Wyvern</span></p>
                         </div>
                     </div>
                 </div>

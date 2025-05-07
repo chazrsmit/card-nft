@@ -67,7 +67,7 @@ body {
 }
 
 .bottom-left, .bottom-right {
-    gap: 8px;
+    gap: 6px;
 }
 
 .bottom-row p {
@@ -91,8 +91,28 @@ body {
     display:flex;
     border-top: 1px solid hsl(215, 32%, 27%);
     flex: 1;
+    gap: 10px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h3 {
     color: white;
+}
+
+.copyright {
+    font-size: 13px;
+    color:  hsl(215, 51%, 70%);
+}
+
+.copyright span {
+    color: white;
+}
+
+.user-icon img {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
