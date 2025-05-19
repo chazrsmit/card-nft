@@ -1,7 +1,7 @@
 {
   "name": "card-nft",
   "private": true,
-  "homepage": "https://chazrsmit.github.it/card-nft/",
+  "homepage": "https://chazrsmit.github.io/card-nft/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

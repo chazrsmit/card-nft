@@ -10,6 +10,12 @@ body {
     font-family: "Outfit";
 }
 
+@media (max-width:578px) {
+    .card {
+        scale: 1.2;
+    }
+}
+
 .card {
     height: auto;
     width: 275px;
